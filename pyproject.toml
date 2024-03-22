@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "container-recipes"
+version = "0.0.1"
+authors = [
+    {name = "Jhonatan Cléto", email = "j256444@dac.unicamp.br"}
+]
+description = "HPCCM Container Recipes for my containers"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = [
+    "hpccm>=23.11.0",
+]
